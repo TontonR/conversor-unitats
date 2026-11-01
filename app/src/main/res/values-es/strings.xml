@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Conversor</string>
+
+    <!-- Menú principal (MainActivity) -->
+    <string name="boto_temperatura">Temperatura</string>
+    <string name="boto_longitud">Longitud</string>
+    <string name="boto_massa">Masa</string>
+    <string name="menu_subtitle">Selecciona una magnitud para convertir</string>
+
+    <!-- Títulos de las pantallas (etiquetas de las Activities al manifest) -->
+    <string name="temperatura_titol">Conversor de Temperatura</string>
+    <string name="longitud_titol">Conversor de Longitud</string>
+    <string name="massa_titol">Conversor de Masa</string>
+
+    <!-- Formulario común de los tres conversores -->
+    <string name="label_valor">Introduce el valor:</string>
+    <string name="hint_valor">Ex: 25.5</string>
+    <string name="label_de">Convierte de:</string>
+    <string name="label_a">Convierte a:</string>
+    <string name="boto_convertir">Convertir</string>
+
+    <!-- Unitades de temperatura -->
+    <string name="celsius">Celsius (°C)</string>
+    <string name="fahrenheit">Fahrenheit (°F)</string>
+    <string name="kelvin">Kelvin (K)</string>
+
+    <!-- Unitades de longitud -->
+    <string name="quilometre">Kilómetro (km)</string>
+    <string name="milla">Milla (mi)</string>
+    <string name="yarda">Yarda (yd)</string>
+
+    <!-- Unidades de masa -->
+    <string name="quilogram">Kilogramo (kg)</string>
+    <string name="lliura">Libra (lb)</string>
+    <string name="unca">Onza (oz)</string>
+
+    <!-- Resultado -->
+    <string name="resultat_label">Resultado:</string>
+    <string name="resultat_inicial">—</string>
+
+    <!-- Errors -->
+    <string name="error_buid">Introduce un valor</string>
+    <string name="error_numeric">Introduce un número válido</string>
+    <string name="error_unitats">Selecciona unidades diferentes</string>
+    <string name="error_generic">Error en la conversión</string>
+
+</resources>

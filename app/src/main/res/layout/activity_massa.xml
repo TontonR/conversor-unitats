@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/label_valor"
+      android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+      android:textColor="@color/text_primary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_valor"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="15dp"
+        android:id="@+id/editValor"
+        android:background="@color/primary_container"
+        android:inputType="numberDecimal|numberSigned"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_de"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="10dp"
+        android:background="@color/primary_container">
+
+        <RadioButton
+            android:id="@+id/radioQuilogram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/quilogram" />
+
+        <RadioButton
+            android:id="@+id/radioLliura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lliura" />
+
+        <RadioButton
+            android:id="@+id/radioUnca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unca" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_a"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="10dp"
+        android:background="@color/primary_container">
+
+        <RadioButton
+            android:id="@+id/radioQuilogramA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/quilogram" />
+
+        <RadioButton
+            android:id="@+id/radioLliuraA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lliura" />
+
+        <RadioButton
+            android:id="@+id/radioUncaA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unca" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/botoConvertir"
+        android:text="@string/boto_convertir"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        style="@style/BotoConversor.Boto.Primary"
+    />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultat_inicial"
+        android:id="@+id/textResultat"
+        style="@style/TextResultat"/>
+
+
+</LinearLayout>
